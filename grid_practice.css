@@ -1,0 +1,35 @@
+body{
+   
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.wrapper{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+
+    max-height: 300px;
+    padding-left: 0.5em;
+    padding-right: 1em;
+
+    border: 2px solid greenyellow;
+    overflow: auto;
+
+    box-shadow: 1px 1px 5px grey;
+}
+div{
+    padding: 1em;
+}
+.wrapper>div{
+    
+    background-color: antiquewhite;
+
+}
+
+.wrapper>div:nth-child(odd){
+    background-color: chocolate;
+}
+.wrapper>div:nth-child(even){
+    grid-column: 1/3;
+}
