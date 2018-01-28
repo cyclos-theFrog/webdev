@@ -32,4 +32,5 @@ div{
 }
 .wrapper>div:nth-child(even){
     grid-column: 1/3;
+    
 }
